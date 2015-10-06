@@ -19,7 +19,8 @@ public class Main {
         logger.info("program starting");
         if(args.length < 1) {
             logger.error("no command line arguments found, program exiting");
-            System.out.println("No commands found");
+            System.out.println("No arguments found");
+            System.out.println("Example argument: \"add(2,2)\"");
             System.exit(0);
         }
         logger.info("arguments: " + args[0]);
