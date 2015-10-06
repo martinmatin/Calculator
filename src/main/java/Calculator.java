@@ -65,7 +65,7 @@ public class Calculator {
                 value = mult();
                 break;
             case "div":
-                System.out.println("div detected");
+                logger.info("div detected");
                 value = div();
                 break;
             case "let":
