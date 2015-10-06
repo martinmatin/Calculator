@@ -26,7 +26,7 @@ public class Main {
         //create calculator, set the command and run
         Calculator calculator = new Calculator();
         calculator.setCommand(args[0]);
-        int result = calculator.execute();
+        long result = calculator.execute();
         System.out.println(result);
         logger.info("program complete with value: " + result);
     }

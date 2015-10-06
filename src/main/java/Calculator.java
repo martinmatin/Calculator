@@ -21,16 +21,16 @@ public class Calculator {
     //variable array for storing calculated values from let statements, range a-z (26)
     private String command;
     private String[] tokens;
-    private int result;
+    private long result;
     private int spot;
-    private int[] variables;
+    private long[] variables;
 
     public Calculator() {
         initLogger();
         logger.info("Calculator created");
     }
 
-    protected int execute() {
+    protected long execute() {
         logger.info("Calculator class executing");
         //check empty or null command
         if(command == null || command.isEmpty()) {
@@ -39,7 +39,7 @@ public class Calculator {
             System.exit(0);
         }
         //26 possible vars
-        variables = new int[26];
+        variables = new long[26];
         //split by non-word characters
         tokens = command.split("[\\W]+");
         logger.info("tokens[]: " + (Arrays.toString(tokens)));
@@ -49,8 +49,8 @@ public class Calculator {
     }
 
     //uses spot variable to remember position
-    private int parseTokens() {
-        int value = 0;
+    private long parseTokens() {
+        long value = 0;
         switch (tokens[spot]) {
             case "add":
                 logger.info("add detected");
@@ -84,7 +84,7 @@ public class Calculator {
                 else {
                     //else number found
                     logger.info("number detected " + tokens[spot]);
-                    value = Integer.parseInt(tokens[spot]);
+                    value = Long.parseLong(tokens[spot]);
                 }
                 break;
         }
@@ -93,12 +93,12 @@ public class Calculator {
 
     //let statement: let(var, value/expression, expression using var)
     //differs from other methods as it returns parseTokens for the expression using the variable
-    private int let() {
+    private long let() {
         spot++;
         char val = tokens[spot].charAt(0);
         spot++;
         variables[val-97] = parseTokens();
-        int value = parseTokens();
+        long value = parseTokens();
         logger.info("let statement produced: " + value);
         return value;
     }
@@ -107,45 +107,45 @@ public class Calculator {
     //gets the value using parseTokens at each value/expression and adding them
     //incrementing global spot variable which keeps track of our spot in the tokens[] array
     //same algorithm is used for sub, div, and mult
-    private int add() {
+    private long add() {
         spot++;
-        int v1 = parseTokens();
+        long v1 = parseTokens();
         spot++;
-        int v2 = parseTokens();
-        int value = v1+v2;
+        long v2 = parseTokens();
+        long value = v1+v2;
         logger.info("add statement produced: " + value);
         return value;
     }
 
     //subtraction method,
-    private int sub() {
+    private long sub() {
         spot++;
-        int v1 = parseTokens();
+        long v1 = parseTokens();
         spot++;
-        int v2 = parseTokens();
-        int value = v1-v2;
+        long v2 = parseTokens();
+        long value = v1-v2;
         logger.info("sub statement produced: " + value);
         return value;
     }
 
     //multiplication method
-    private int mult() {
+    private long mult() {
         spot++;
-        int v1 = parseTokens();
+        long v1 = parseTokens();
         spot++;
-        int v2 = parseTokens();
-        int value = v1*v2;
+        long v2 = parseTokens();
+        long value = v1*v2;
         logger.info("mult statement produced: " + value);
         return value;
     }
 
     //division method
-    private int div() {
+    private long div() {
         spot++;
-        int v1 = parseTokens();
+        long v1 = parseTokens();
         spot++;
-        int v2 = parseTokens();
-        int value = v1/v2;
+        long v2 = parseTokens();
+        long value = v1/v2;
         logger.info("div statement produced: " + value);
         return value;
     }
