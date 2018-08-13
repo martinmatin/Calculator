@@ -59,6 +59,9 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
+        <configuration>
+          <configLocation>google_checks.xml</configLocation>
+        </configuration>
         <version>3.0.0</version>
         <reportSets>
           <reportSet>
