@@ -12,7 +12,12 @@ public class TestCalculator {
         calculator.setCommand("add(1,2)");
         assertEquals("add(1,2) = 3 ", 3L, calculator.execute());
     }
-
+    @Test
+    public void testMod() {
+        Calculator calculator = new Calculator();
+        calculator.setCommand("mod(13,2)");
+        assertEquals("add(13,2) = 1 ", 1L, calculator.execute());
+    }
     @Test
     public void testAddWithMult() {
         Calculator calculator = new Calculator();
