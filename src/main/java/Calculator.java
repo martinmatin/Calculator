@@ -68,6 +68,10 @@ public class Calculator {
                 logger.info("div detected");
                 value = div();
                 break;
+            case "mod":
+                logger.info("div detected");
+                value = mod();
+                break;
             case "let":
                 logger.info("let detected");
                 value = let();
@@ -88,6 +92,16 @@ public class Calculator {
                 }
                 break;
         }
+        return value;
+    }
+
+    private long mod() {
+        spot++;
+        long v1 = parseTokens();
+        spot++;
+        long v2 = parseTokens();
+        long value = v1%v2;
+        logger.info("mod statement produced: " + value);
         return value;
     }
 
