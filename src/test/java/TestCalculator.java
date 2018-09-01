@@ -1,4 +1,5 @@
 import be.ecam.calculator.Calculator;
+
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.Test;
