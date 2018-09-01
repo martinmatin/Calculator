@@ -192,4 +192,8 @@ public class Calculator {
     public String getCommand() {
         return command;
     }
+
+    public String useless() {
+        return null;
+    }
 }
