@@ -1,12 +1,12 @@
 {
-  "uid" : "f06376deffdff532",
+  "uid" : "b2f2f1a02dda29f5",
   "name" : "testMultLetWithMultAndAdd",
   "fullName" : "TestCalculator.testMultLetWithMultAndAdd",
   "historyId" : "af5fadb84b811136c8d6ee4479126fd4",
   "time" : {
-    "start" : 1535804579468,
-    "stop" : 1535804579488,
-    "duration" : 20
+    "start" : 1535809804901,
+    "stop" : 1535809804909,
+    "duration" : 8
   },
   "status" : "passed",
   "beforeStages" : [ ],
@@ -28,13 +28,16 @@
     "value" : "DESKTOP-R9PBA3D"
   }, {
     "name" : "thread",
-    "value" : "6024@DESKTOP-R9PBA3D.main(1)"
+    "value" : "4676@DESKTOP-R9PBA3D.main(1)"
   }, {
     "name" : "feature",
     "value" : "Create calculator"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "extra" : { }
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "952b6a090beb731d",
-  "name" : "testLetWithAdd",
-  "fullName" : "TestCalculator.testLetWithAdd",
-  "historyId" : "cc43189b78939a5449ce206f05ce59b5",
+  "uid" : "68ec22a7dbc2ca0d",
+  "name" : "testMod",
+  "fullName" : "TestCalculator.testMod",
+  "historyId" : "224d8c9d56ed57a6efcb788be55ed4b7",
   "time" : {
-    "start" : 1535804895563,
-    "stop" : 1535804895568,
+    "start" : 1535809804887,
+    "stop" : 1535809804892,
     "duration" : 5
   },
   "status" : "passed",
@@ -19,7 +19,7 @@
     "value" : "TestCalculator"
   }, {
     "name" : "testMethod",
-    "value" : "testLetWithAdd"
+    "value" : "testMod"
   }, {
     "name" : "suite",
     "value" : "TestCalculator"
@@ -28,13 +28,19 @@
     "value" : "DESKTOP-R9PBA3D"
   }, {
     "name" : "thread",
-    "value" : "15544@DESKTOP-R9PBA3D.main(1)"
+    "value" : "4676@DESKTOP-R9PBA3D.main(1)"
   }, {
     "name" : "feature",
     "value" : "Create calculator"
+  }, {
+    "name" : "story",
+    "value" : "To be able to mod"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "extra" : { }
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
 }

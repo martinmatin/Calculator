@@ -8,23 +8,23 @@
     "total" : 7
   },
   "time" : {
-    "minDuration" : 4,
-    "maxDuration" : 148,
-    "sumDuration" : 179,
-    "start" : 1535805091081,
-    "stop" : 1535805091454,
-    "duration" : 373
+    "minDuration" : 5,
+    "maxDuration" : 117,
+    "sumDuration" : 152,
+    "start" : 1535809804587,
+    "stop" : 1535809804953,
+    "duration" : 366
   },
   "children" : [ {
-    "uid" : "4da0f0a4d90c54ea",
+    "uid" : "6d37e364c856c491",
     "name" : "Create calculator",
     "time" : {
-      "minDuration" : 4,
-      "maxDuration" : 148,
-      "sumDuration" : 179,
-      "start" : 1535805091081,
-      "stop" : 1535805091454,
-      "duration" : 373
+      "minDuration" : 5,
+      "maxDuration" : 117,
+      "sumDuration" : 152,
+      "start" : 1535809804587,
+      "stop" : 1535809804953,
+      "duration" : 366
     },
     "statistic" : {
       "failed" : 0,
@@ -36,15 +36,15 @@
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "11cc81290b1cb03b",
+      "uid" : "ea3e16dfca96d46b",
       "name" : "Default story",
       "time" : {
-        "minDuration" : 4,
-        "maxDuration" : 148,
-        "sumDuration" : 159,
-        "start" : 1535805091081,
-        "stop" : 1535805091430,
-        "duration" : 349
+        "minDuration" : 6,
+        "maxDuration" : 117,
+        "sumDuration" : 131,
+        "start" : 1535809804587,
+        "stop" : 1535809804926,
+        "duration" : 339
       },
       "statistic" : {
         "failed" : 0,
@@ -56,49 +56,49 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "65611db3c1f67c78",
-        "name" : "testMultLetWithMultAdd",
-        "time" : {
-          "start" : 1535805091081,
-          "stop" : 1535805091229,
-          "duration" : 148
-        },
-        "status" : "passed",
-        "flaky" : true,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "829af10d5310e415",
+        "uid" : "b2f2f1a02dda29f5",
         "name" : "testMultLetWithMultAndAdd",
         "time" : {
-          "start" : 1535805091410,
-          "stop" : 1535805091417,
-          "duration" : 7
+          "start" : 1535809804901,
+          "stop" : 1535809804909,
+          "duration" : 8
         },
         "status" : "passed",
-        "flaky" : true,
+        "flaky" : false,
         "type" : "TestCaseNode"
       }, {
-        "uid" : "3f8f671404d5953b",
+        "uid" : "510f4220a27a6699",
         "name" : "testLetWithAdd",
         "time" : {
-          "start" : 1535805091426,
-          "stop" : 1535805091430,
-          "duration" : 4
+          "start" : 1535809804920,
+          "stop" : 1535809804926,
+          "duration" : 6
         },
         "status" : "passed",
-        "flaky" : true,
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "29c6f9b2e53b610e",
+        "name" : "testMultLetWithMultAdd",
+        "time" : {
+          "start" : 1535809804587,
+          "stop" : 1535809804704,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "flaky" : false,
         "type" : "TestCaseNode"
       } ]
     }, {
-      "uid" : "6662668ef95e6aff",
-      "name" : "To be able to mult",
+      "uid" : "83eb44462e4f2992",
+      "name" : "To be able to add",
       "time" : {
-        "minDuration" : 4,
-        "maxDuration" : 4,
-        "sumDuration" : 4,
-        "start" : 1535805091450,
-        "stop" : 1535805091454,
-        "duration" : 4
+        "minDuration" : 5,
+        "maxDuration" : 5,
+        "sumDuration" : 5,
+        "start" : 1535809804866,
+        "stop" : 1535809804871,
+        "duration" : 5
       },
       "statistic" : {
         "failed" : 0,
@@ -110,26 +110,90 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "c417ec9e187d590d",
-        "name" : "testAddWithMult",
+        "uid" : "fbe6a90157df7baf",
+        "name" : "testAdd",
         "time" : {
-          "start" : 1535805091450,
-          "stop" : 1535805091454,
-          "duration" : 4
+          "start" : 1535809804866,
+          "stop" : 1535809804871,
+          "duration" : 5
         },
         "status" : "passed",
-        "flaky" : true,
+        "flaky" : false,
         "type" : "TestCaseNode"
       } ]
     }, {
-      "uid" : "7e78b646fc3d094e",
+      "uid" : "c2107d9da57f1d77",
+      "name" : "To be able to mod",
+      "time" : {
+        "minDuration" : 5,
+        "maxDuration" : 5,
+        "sumDuration" : 5,
+        "start" : 1535809804887,
+        "stop" : 1535809804892,
+        "duration" : 5
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "68ec22a7dbc2ca0d",
+        "name" : "testMod",
+        "time" : {
+          "start" : 1535809804887,
+          "stop" : 1535809804892,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "ec904d1af6984ea4",
+      "name" : "To be able to mult",
+      "time" : {
+        "minDuration" : 5,
+        "maxDuration" : 5,
+        "sumDuration" : 5,
+        "start" : 1535809804948,
+        "stop" : 1535809804953,
+        "duration" : 5
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "9a687006ffd58138",
+        "name" : "testAddWithMult",
+        "time" : {
+          "start" : 1535809804948,
+          "stop" : 1535809804953,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "cd9735658e39af76",
       "name" : "To be able to combine operation mult",
       "time" : {
         "minDuration" : 6,
         "maxDuration" : 6,
         "sumDuration" : 6,
-        "start" : 1535805091437,
-        "stop" : 1535805091443,
+        "start" : 1535809804935,
+        "stop" : 1535809804941,
         "duration" : 6
       },
       "statistic" : {
@@ -142,79 +206,15 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "de556dd145d96a45",
+        "uid" : "88f9fd115f0f94b7",
         "name" : "testMultWithDiv",
         "time" : {
-          "start" : 1535805091437,
-          "stop" : 1535805091443,
+          "start" : 1535809804935,
+          "stop" : 1535809804941,
           "duration" : 6
         },
         "status" : "passed",
-        "flaky" : true,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "9c14c8b838690f28",
-      "name" : "To be able to mod",
-      "time" : {
-        "minDuration" : 6,
-        "maxDuration" : 6,
-        "sumDuration" : 6,
-        "start" : 1535805091387,
-        "stop" : 1535805091393,
-        "duration" : 6
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "a220d6a77c1c76d7",
-        "name" : "testMod",
-        "time" : {
-          "start" : 1535805091387,
-          "stop" : 1535805091393,
-          "duration" : 6
-        },
-        "status" : "passed",
-        "flaky" : true,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "d330b68149aa1b96",
-      "name" : "To be able to add",
-      "time" : {
-        "minDuration" : 4,
-        "maxDuration" : 4,
-        "sumDuration" : 4,
-        "start" : 1535805091375,
-        "stop" : 1535805091379,
-        "duration" : 4
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "8f542c51064e5802",
-        "name" : "testAdd",
-        "time" : {
-          "start" : 1535805091375,
-          "stop" : 1535805091379,
-          "duration" : 4
-        },
-        "status" : "passed",
-        "flaky" : true,
+        "flaky" : false,
         "type" : "TestCaseNode"
       } ]
     } ]

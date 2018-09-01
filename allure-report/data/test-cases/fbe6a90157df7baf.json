@@ -1,12 +1,12 @@
 {
-  "uid" : "880162bae2234684",
-  "name" : "testMultLetWithMultAndAdd",
-  "fullName" : "TestCalculator.testMultLetWithMultAndAdd",
-  "historyId" : "af5fadb84b811136c8d6ee4479126fd4",
+  "uid" : "fbe6a90157df7baf",
+  "name" : "testAdd",
+  "fullName" : "TestCalculator.testAdd",
+  "historyId" : "f92d450477cc7a67f104f5af64b511c0",
   "time" : {
-    "start" : 1535804895548,
-    "stop" : 1535804895554,
-    "duration" : 6
+    "start" : 1535809804866,
+    "stop" : 1535809804871,
+    "duration" : 5
   },
   "status" : "passed",
   "beforeStages" : [ ],
@@ -19,7 +19,7 @@
     "value" : "TestCalculator"
   }, {
     "name" : "testMethod",
-    "value" : "testMultLetWithMultAndAdd"
+    "value" : "testAdd"
   }, {
     "name" : "suite",
     "value" : "TestCalculator"
@@ -28,13 +28,19 @@
     "value" : "DESKTOP-R9PBA3D"
   }, {
     "name" : "thread",
-    "value" : "15544@DESKTOP-R9PBA3D.main(1)"
+    "value" : "4676@DESKTOP-R9PBA3D.main(1)"
   }, {
     "name" : "feature",
     "value" : "Create calculator"
+  }, {
+    "name" : "story",
+    "value" : "To be able to add"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "extra" : { }
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
 }

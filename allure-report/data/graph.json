@@ -1,70 +1,70 @@
 [ {
-  "uid" : "65611db3c1f67c78",
-  "name" : "testMultLetWithMultAdd",
-  "time" : {
-    "start" : 1535805091081,
-    "stop" : 1535805091229,
-    "duration" : 148
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c417ec9e187d590d",
-  "name" : "testAddWithMult",
-  "time" : {
-    "start" : 1535805091450,
-    "stop" : 1535805091454,
-    "duration" : 4
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de556dd145d96a45",
-  "name" : "testMultWithDiv",
-  "time" : {
-    "start" : 1535805091437,
-    "stop" : 1535805091443,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "829af10d5310e415",
+  "uid" : "b2f2f1a02dda29f5",
   "name" : "testMultLetWithMultAndAdd",
   "time" : {
-    "start" : 1535805091410,
-    "stop" : 1535805091417,
-    "duration" : 7
+    "start" : 1535809804901,
+    "stop" : 1535809804909,
+    "duration" : 8
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a220d6a77c1c76d7",
+  "uid" : "fbe6a90157df7baf",
+  "name" : "testAdd",
+  "time" : {
+    "start" : 1535809804866,
+    "stop" : 1535809804871,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68ec22a7dbc2ca0d",
   "name" : "testMod",
   "time" : {
-    "start" : 1535805091387,
-    "stop" : 1535805091393,
+    "start" : 1535809804887,
+    "stop" : 1535809804892,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "510f4220a27a6699",
+  "name" : "testLetWithAdd",
+  "time" : {
+    "start" : 1535809804920,
+    "stop" : 1535809804926,
     "duration" : 6
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3f8f671404d5953b",
-  "name" : "testLetWithAdd",
+  "uid" : "9a687006ffd58138",
+  "name" : "testAddWithMult",
   "time" : {
-    "start" : 1535805091426,
-    "stop" : 1535805091430,
-    "duration" : 4
+    "start" : 1535809804948,
+    "stop" : 1535809804953,
+    "duration" : 5
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8f542c51064e5802",
-  "name" : "testAdd",
+  "uid" : "29c6f9b2e53b610e",
+  "name" : "testMultLetWithMultAdd",
   "time" : {
-    "start" : 1535805091375,
-    "stop" : 1535805091379,
-    "duration" : 4
+    "start" : 1535809804587,
+    "stop" : 1535809804704,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88f9fd115f0f94b7",
+  "name" : "testMultWithDiv",
+  "time" : {
+    "start" : 1535809804935,
+    "stop" : 1535809804941,
+    "duration" : 6
   },
   "status" : "passed",
   "severity" : "normal"

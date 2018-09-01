@@ -1,12 +1,12 @@
 {
-  "uid" : "efdb0399bb8ef346",
-  "name" : "testAdd",
-  "fullName" : "TestCalculator.testAdd",
-  "historyId" : "f92d450477cc7a67f104f5af64b511c0",
+  "uid" : "88f9fd115f0f94b7",
+  "name" : "testMultWithDiv",
+  "fullName" : "TestCalculator.testMultWithDiv",
+  "historyId" : "58d561f49ed0b6207ed0994cfd2eac86",
   "time" : {
-    "start" : 1535805003724,
-    "stop" : 1535805003728,
-    "duration" : 4
+    "start" : 1535809804935,
+    "stop" : 1535809804941,
+    "duration" : 6
   },
   "status" : "passed",
   "beforeStages" : [ ],
@@ -19,7 +19,7 @@
     "value" : "TestCalculator"
   }, {
     "name" : "testMethod",
-    "value" : "testAdd"
+    "value" : "testMultWithDiv"
   }, {
     "name" : "suite",
     "value" : "TestCalculator"
@@ -28,16 +28,19 @@
     "value" : "DESKTOP-R9PBA3D"
   }, {
     "name" : "thread",
-    "value" : "2496@DESKTOP-R9PBA3D.main(1)"
+    "value" : "4676@DESKTOP-R9PBA3D.main(1)"
   }, {
     "name" : "feature",
     "value" : "Create calculator"
   }, {
     "name" : "story",
-    "value" : "To be able to add"
+    "value" : "To be able to combine operation mult"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "extra" : { }
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
 }

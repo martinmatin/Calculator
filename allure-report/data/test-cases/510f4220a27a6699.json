@@ -1,12 +1,12 @@
 {
-  "uid" : "bf01a0996ebdb499",
-  "name" : "testMultLetWithMultAdd",
-  "fullName" : "TestCalculator.testMultLetWithMultAdd",
-  "historyId" : "cbf1c21a7da25be8901bf5cdc7558c15",
+  "uid" : "510f4220a27a6699",
+  "name" : "testLetWithAdd",
+  "fullName" : "TestCalculator.testLetWithAdd",
+  "historyId" : "cc43189b78939a5449ce206f05ce59b5",
   "time" : {
-    "start" : 1535804895210,
-    "stop" : 1535804895363,
-    "duration" : 153
+    "start" : 1535809804920,
+    "stop" : 1535809804926,
+    "duration" : 6
   },
   "status" : "passed",
   "beforeStages" : [ ],
@@ -19,7 +19,7 @@
     "value" : "TestCalculator"
   }, {
     "name" : "testMethod",
-    "value" : "testMultLetWithMultAdd"
+    "value" : "testLetWithAdd"
   }, {
     "name" : "suite",
     "value" : "TestCalculator"
@@ -28,13 +28,16 @@
     "value" : "DESKTOP-R9PBA3D"
   }, {
     "name" : "thread",
-    "value" : "15544@DESKTOP-R9PBA3D.main(1)"
+    "value" : "4676@DESKTOP-R9PBA3D.main(1)"
   }, {
     "name" : "feature",
     "value" : "Create calculator"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "extra" : { }
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
 }

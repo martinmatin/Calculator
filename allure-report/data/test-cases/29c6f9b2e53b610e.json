@@ -1,17 +1,14 @@
 {
-  "uid" : "65611db3c1f67c78",
+  "uid" : "29c6f9b2e53b610e",
   "name" : "testMultLetWithMultAdd",
   "fullName" : "TestCalculator.testMultLetWithMultAdd",
   "historyId" : "cbf1c21a7da25be8901bf5cdc7558c15",
   "time" : {
-    "start" : 1535805091081,
-    "stop" : 1535805091229,
-    "duration" : 148
+    "start" : 1535809804587,
+    "stop" : 1535809804704,
+    "duration" : 117
   },
   "status" : "passed",
-  "statusDetails" : {
-    "flaky" : true
-  },
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -31,7 +28,7 @@
     "value" : "DESKTOP-R9PBA3D"
   }, {
     "name" : "thread",
-    "value" : "17168@DESKTOP-R9PBA3D.main(1)"
+    "value" : "4676@DESKTOP-R9PBA3D.main(1)"
   }, {
     "name" : "feature",
     "value" : "Create calculator"
@@ -41,31 +38,6 @@
   "hidden" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "6553c0bdda9cb0fb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1535805003429,
-        "stop" : 1535805003571,
-        "duration" : 142
-      }
-    }, {
-      "uid" : "bf01a0996ebdb499",
-      "status" : "passed",
-      "time" : {
-        "start" : 1535804895210,
-        "stop" : 1535804895363,
-        "duration" : 153
-      }
-    }, {
-      "uid" : "822287e07e020fdb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1535804578960,
-        "stop" : 1535804579217,
-        "duration" : 257
-      }
-    } ],
     "categories" : [ ]
   }
 }
