@@ -1,3 +1,6 @@
+
+package be.ecam.calculator;
+
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -30,7 +33,7 @@ public class Calculator {
         logger.info("Calculator created");
     }
 
-    protected long execute() {
+    public long execute() {
         logger.info("Calculator class executing");
         //check empty or null command
         if(command == null || command.isEmpty()) {
@@ -68,6 +71,10 @@ public class Calculator {
                 logger.info("div detected");
                 value = div();
                 break;
+            case "mod":
+                logger.info("div detected");
+                value = mod();
+                break;
             case "let":
                 logger.info("let detected");
                 value = let();
@@ -88,6 +95,16 @@ public class Calculator {
                 }
                 break;
         }
+        return value;
+    }
+
+    private long mod() {
+        spot++;
+        long v1 = parseTokens();
+        spot++;
+        long v2 = parseTokens();
+        long value = v1%v2;
+        logger.info("mod statement produced: " + value);
         return value;
     }
 
@@ -168,11 +185,11 @@ public class Calculator {
     }
 
     //setter for command string
-    protected void setCommand(String command) {
+    public void setCommand(String command) {
         this.command = command;
     }
     //getter for command string
-    protected String getCommand() {
+    public String getCommand() {
         return command;
     }
 }

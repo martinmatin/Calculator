@@ -1,9 +1,13 @@
+package be.ecam.calculator;
+
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import java.io.FileInputStream;
 import java.util.Properties;
+
+import be.ecam.calculator.Calculator;
 
 /**
  * Created by kurtis on 2015-10-04.

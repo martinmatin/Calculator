@@ -1,24 +1,34 @@
+import be.ecam.calculator.Calculator;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by kurtis on 2015-10-05.
  * All the tests from the example input
  */
+@Feature("Create calculator")
 public class TestCalculator {
     @Test
+    @Story("To be able to add")
     public void testAdd() {
         Calculator calculator = new Calculator();
         calculator.setCommand("add(1,2)");
         assertEquals("add(1,2) = 3 ", 3L, calculator.execute());
     }
-    // @Test
-    // public void testMod() {
-    //     Calculator calculator = new Calculator();
-    //     calculator.setCommand("mod(13,2)");
-    //     assertEquals("add(13,2) = 1 ", 1L, calculator.execute());
-    // }
+
     @Test
+    @Story("To be able to mod")
+    public void testMod() {
+        Calculator calculator = new Calculator();
+        calculator.setCommand("mod(13,2)");
+        assertEquals("mod(13,2) = 1", 1L, calculator.execute());
+    }
+
+    @Test
+    @Story("To be able to mult")
     public void testAddWithMult() {
         Calculator calculator = new Calculator();
         calculator.setCommand("add(1, mult(2,3))");
@@ -26,6 +36,7 @@ public class TestCalculator {
     }
 
     @Test
+    @Story("To be able to combine operation mult")
     public void testMultWithDiv() {
         Calculator calculator = new Calculator();
         calculator.setCommand("mult(add(2,2),div(9,3))");
