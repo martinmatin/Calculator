@@ -1,0 +1,40 @@
+{
+  "uid" : "97b79c5992839d9e",
+  "name" : "testLetWithAdd",
+  "fullName" : "TestCalculator.testLetWithAdd",
+  "historyId" : "cc43189b78939a5449ce206f05ce59b5",
+  "time" : {
+    "start" : 1535805003770,
+    "stop" : 1535805003775,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLetWithAdd"
+  }, {
+    "name" : "suite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9PBA3D"
+  }, {
+    "name" : "thread",
+    "value" : "2496@DESKTOP-R9PBA3D.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Create calculator"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

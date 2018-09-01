@@ -1,0 +1,43 @@
+{
+  "uid" : "d869ad569b29f583",
+  "name" : "testAddWithMult",
+  "fullName" : "TestCalculator.testAddWithMult",
+  "historyId" : "490fe95c0df6bda0e22c7987a9841967",
+  "time" : {
+    "start" : 1535805003799,
+    "stop" : 1535805003804,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAddWithMult"
+  }, {
+    "name" : "suite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9PBA3D"
+  }, {
+    "name" : "thread",
+    "value" : "2496@DESKTOP-R9PBA3D.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Create calculator"
+  }, {
+    "name" : "story",
+    "value" : "To be able to mult"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

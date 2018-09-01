@@ -1,0 +1,43 @@
+{
+  "uid" : "387deb1aa7b3765",
+  "name" : "testAdd",
+  "fullName" : "TestCalculator.testAdd",
+  "historyId" : "f92d450477cc7a67f104f5af64b511c0",
+  "time" : {
+    "start" : 1535804579421,
+    "stop" : 1535804579425,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAdd"
+  }, {
+    "name" : "suite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9PBA3D"
+  }, {
+    "name" : "thread",
+    "value" : "6024@DESKTOP-R9PBA3D.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Create calculator"
+  }, {
+    "name" : "story",
+    "value" : "To be able to add"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

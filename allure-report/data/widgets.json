@@ -1,0 +1,46 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "time" : {
+      "minDuration" : 4,
+      "maxDuration" : 148,
+      "sumDuration" : 179,
+      "start" : 1535805091081,
+      "stop" : 1535805091454,
+      "duration" : 373
+    }
+  },
+  "environment" : [ ],
+  "history-trend" : [ {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 7,
+    "unknown" : 0,
+    "total" : 7
+  } ],
+  "behaviors" : {
+    "total" : 1,
+    "items" : [ {
+      "name" : "Create calculator",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      }
+    } ]
+  },
+  "executors" : [ ],
+  "launches" : [ ]
+}

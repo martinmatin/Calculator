@@ -1,0 +1,71 @@
+{
+  "uid" : "3f8f671404d5953b",
+  "name" : "testLetWithAdd",
+  "fullName" : "TestCalculator.testLetWithAdd",
+  "historyId" : "cc43189b78939a5449ce206f05ce59b5",
+  "time" : {
+    "start" : 1535805091426,
+    "stop" : 1535805091430,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLetWithAdd"
+  }, {
+    "name" : "suite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9PBA3D"
+  }, {
+    "name" : "thread",
+    "value" : "17168@DESKTOP-R9PBA3D.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Create calculator"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "97b79c5992839d9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535805003770,
+        "stop" : 1535805003775,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "952b6a090beb731d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535804895563,
+        "stop" : 1535804895568,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "d19e56f74b5c0611",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535804579505,
+        "stop" : 1535804579518,
+        "duration" : 13
+      }
+    } ],
+    "categories" : [ ]
+  }
+}

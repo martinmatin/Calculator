@@ -1,0 +1,43 @@
+{
+  "uid" : "8569294d65cc9b4d",
+  "name" : "testMod",
+  "fullName" : "TestCalculator.testMod",
+  "historyId" : "224d8c9d56ed57a6efcb788be55ed4b7",
+  "time" : {
+    "start" : 1535804895536,
+    "stop" : 1535804895540,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMod"
+  }, {
+    "name" : "suite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9PBA3D"
+  }, {
+    "name" : "thread",
+    "value" : "15544@DESKTOP-R9PBA3D.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Create calculator"
+  }, {
+    "name" : "story",
+    "value" : "To be able to mod"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

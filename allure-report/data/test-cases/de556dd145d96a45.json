@@ -1,0 +1,74 @@
+{
+  "uid" : "de556dd145d96a45",
+  "name" : "testMultWithDiv",
+  "fullName" : "TestCalculator.testMultWithDiv",
+  "historyId" : "58d561f49ed0b6207ed0994cfd2eac86",
+  "time" : {
+    "start" : 1535805091437,
+    "stop" : 1535805091443,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMultWithDiv"
+  }, {
+    "name" : "suite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9PBA3D"
+  }, {
+    "name" : "thread",
+    "value" : "17168@DESKTOP-R9PBA3D.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Create calculator"
+  }, {
+    "name" : "story",
+    "value" : "To be able to combine operation mult"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "11a33d6b7e8f207a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535805003786,
+        "stop" : 1535805003791,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "bee8dc0fe94377d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535804895576,
+        "stop" : 1535804895581,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "865957f2f42e24ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535804579539,
+        "stop" : 1535804579545,
+        "duration" : 6
+      }
+    } ],
+    "categories" : [ ]
+  }
+}

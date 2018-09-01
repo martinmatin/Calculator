@@ -1,0 +1,40 @@
+{
+  "uid" : "6553c0bdda9cb0fb",
+  "name" : "testMultLetWithMultAdd",
+  "fullName" : "TestCalculator.testMultLetWithMultAdd",
+  "historyId" : "cbf1c21a7da25be8901bf5cdc7558c15",
+  "time" : {
+    "start" : 1535805003429,
+    "stop" : 1535805003571,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMultLetWithMultAdd"
+  }, {
+    "name" : "suite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R9PBA3D"
+  }, {
+    "name" : "thread",
+    "value" : "2496@DESKTOP-R9PBA3D.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Create calculator"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}
